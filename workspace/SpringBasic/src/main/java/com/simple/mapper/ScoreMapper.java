@@ -6,8 +6,8 @@ import com.simple.command.ScoreVO;
 
 public interface ScoreMapper {
 
-		public void scoreRegist(ScoreVO vo);
-		public ArrayList<ScoreVO> getScores();
-		public void scoreDelete(int index);
+		public void scoreRegist(ScoreVO vo); //등록
+		public ArrayList<ScoreVO> getScores(); //조희
+		public void scoreDelete(int index); //삭제
 
 }

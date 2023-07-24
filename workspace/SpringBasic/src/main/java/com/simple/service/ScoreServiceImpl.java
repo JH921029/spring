@@ -27,12 +27,12 @@ public class ScoreServiceImpl implements ScoreService {
 
 	@Override
 	public ArrayList<ScoreVO> getScores() {
-		return null;
+		return scoreMapper.getScores();
 	}
 
 	@Override
 	public void scoreDelete(int index) {
-		
+		scoreMapper.scoreDelete(index);
 	}
 	
 	
